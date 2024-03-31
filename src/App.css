@@ -1,0 +1,58 @@
+.app {
+  text-align: left;
+  background-color: #282c34;
+  max-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pads-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 15rem;
+}
+
+.title {
+  width: 8rem;
+  margin-left: 2rem;
+  background-color: #000000;
+  color: white;
+  padding: 0.25rem 0.5rem;
+}
+
+.display-text {
+  background-color: white;
+  padding: 0.25rem 0.5rem;
+  width: 8rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.drum-pad-container {
+  width: 4rem;
+  aspect-ratio: 1 / 1;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.drum-pad {
+  background-color: white;
+  border-radius: 1rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
